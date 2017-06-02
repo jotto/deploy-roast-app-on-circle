@@ -6,7 +6,5 @@ deployment:
   production:
     branch: master
     commands:
-      - pwd
-      - ls -alh
       - npm install -g roast
       - roast deploy
